@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app.login_window.MainActivity"
+    android:orientation="vertical"
+    android:background="#04022c">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="75dp"
+    android:layout_marginTop="200dp">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:id="@+id/tv1"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:id="@+id/et1"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#c0f6f3"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="75dp"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Password: "
+        android:id="@+id/tv2"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:id="@+id/et2"
+        android:inputType="textPassword"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#c0f6f3"/>
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/btn"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#c0f6f3"/>
+</LinearLayout>
